@@ -28,7 +28,7 @@ dependencies {
     implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
     compileOnly 'org.projectlombok:lombok'
     implementation("org.springframework.cloud:spring-cloud-config-client")
-    implementation 'org.flowable:flowable-spring-boot-starter-actuator'
+    implementation("org.springframework.boot:spring-boot-starter-actuator")
     developmentOnly 'org.springframework.boot:spring-boot-devtools'
     runtimeOnly 'org.postgresql:postgresql'
     annotationProcessor 'org.projectlombok:lombok'
