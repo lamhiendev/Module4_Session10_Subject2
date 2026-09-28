@@ -8,8 +8,7 @@ import java.util.Map;
 
 @FeignClient(
         name = "warehouse-service",
-        url = "http://localhost:8081",
-        fallback = WarehouseClientFallback.class
+        url = "http://localhost:8081"
 )
 public interface WarehouseClient {
     @GetMapping("api/v1/warehouses/check-stock")
