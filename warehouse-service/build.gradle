@@ -6,7 +6,7 @@ plugins {
 
 group = 'demo'
 version = '0.0.1-SNAPSHOT'
-description = 'pharmacy-service'
+description = 'warehouse-service'
 
 java {
     toolchain {
@@ -25,11 +25,8 @@ ext {
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
     implementation 'org.springframework.boot:spring-boot-starter-webmvc'
-    implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
-    compileOnly 'org.projectlombok:lombok'
-    implementation("org.springframework.cloud:spring-cloud-config-client")
-    implementation("org.springframework.boot:spring-boot-starter-actuator")
     implementation 'org.springframework.cloud:spring-cloud-starter-openfeign'
+    compileOnly 'org.projectlombok:lombok'
     developmentOnly 'org.springframework.boot:spring-boot-devtools'
     runtimeOnly 'org.postgresql:postgresql'
     annotationProcessor 'org.projectlombok:lombok'
