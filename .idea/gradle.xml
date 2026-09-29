@@ -13,6 +13,15 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/inventory-service" />
+        <option name="gradleJvm" value="graalvm-ce-21" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/inventory-service" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/pharmacy-service" />
         <option name="gradleJvm" value="graalvm-ce-21" />
         <option name="modules">
