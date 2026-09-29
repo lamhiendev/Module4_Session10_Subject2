@@ -13,6 +13,8 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="warehouse-service" target="21" />
+      <module name="warehouse-service.main" target="21" />
+      <module name="warehouse-service.test" target="21" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
